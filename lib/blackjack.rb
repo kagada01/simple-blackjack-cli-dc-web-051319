@@ -59,7 +59,6 @@ hand_total = initial_round
   while (hand_total < 21)
     hand_total = hit?(hand_total)
     display_card_total(hand_total)
-  else
-    end_game(hand_total)
   end
+    end_game(hand_total)
 end
